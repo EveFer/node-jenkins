@@ -2,7 +2,7 @@ const express = require('express')
 
 const server = express()
 
-server.set('port', process.env.PORT || 3002)
+server.set('port', 3000)
 
 server.use(express.json())
 
